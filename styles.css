@@ -80,7 +80,7 @@ nav li {
 
 /* -----Experience----- */
 .experience {
-  margin: 100px;
+  margin: 0px 100px;
   display: flex;
   gap: 75px;
   height: 100%;
@@ -113,9 +113,8 @@ nav li {
   color: white;
   border: 1px solid #ff900e;
   border-radius: 5px;
-  margin-bottom: 20px;
-  position: absolute;
-  top: 2597px;
+  position: relative;
+  top: -125px;
   left: 700px;
 }
 .year {
@@ -139,6 +138,10 @@ nav li {
   align-items: center;
   flex-direction: column;
   padding: 40px 30px;
+}
+.box:hover {
+  background-color: #ece7e7;
+  font-size: 1.1em;
 }
 .box img {
   padding-bottom: 15px;
@@ -214,4 +217,61 @@ footer {
   margin: 50px 100px;
   height: 40px;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .heading {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    margin-bottom: 30px;
+  }
+  .features {
+    flex-direction: column;
+    margin: 20px;
+  }
+  .photo {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+  }
+  .experience {
+    flex-direction: column;
+    margin: 30px;
+  }
+  .right {
+    height: 500px;
+  }
+  .right img {
+    width: 100%;
+  }
+  .stat-box {
+    flex-direction: column;
+  }
+  .box {
+    margin-bottom: 20px;
+  }
+  .sponsor .logo {
+    flex-direction: column;
+  }
+  .flex-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .extra-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-secondary {
+    top: 0px;
+    left: 0px;
+  }
+  .contact,
+  .subscribe {
+    padding-left: 40px;
+    width: 80%;
+  }
 }
