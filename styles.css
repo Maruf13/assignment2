@@ -18,6 +18,7 @@
   font-size: 20px;
   padding-top: 20px;
 }
+
 /* header section css */
 header {
   background: rgb(255, 144, 14, 0.1);
@@ -46,6 +47,51 @@ nav li {
   width: 80%;
   padding-bottom: 30px;
 }
+
+/* -----Experience----- */
+.experience {
+  margin: 100px;
+  display: flex;
+  gap: 75px;
+  height: 100%;
+}
+.left {
+  padding: 10px;
+}
+.left .title {
+  border-left: 3px solid #ff900e;
+  padding-left: 20px;
+}
+
+.card {
+  border: 1px solid rgb(245, 239, 239);
+  padding: 10px;
+  box-shadow: 5px 10px #ece7e7;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+.right {
+  padding: 20px;
+  height: 750px;
+}
+.right img {
+  height: 100%;
+}
+.btn-secondary {
+  background-color: #ff900e;
+  padding: 20px 20px;
+  color: white;
+  border: 1px solid #ff900e;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 1650px;
+  left: 700px;
+}
+.year {
+  font-size: 40px;
+}
+
 /* stat css */
 .stat {
   margin: 100px;
@@ -81,6 +127,7 @@ nav li {
 }
 .sponsor .logo {
   display: flex;
+  justify-content: space-between;
 }
 .sponsor .logo img {
   padding: 40px;
