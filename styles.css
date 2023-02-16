@@ -17,6 +17,7 @@
 .subtitle {
   font-size: 20px;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* header section css */
@@ -42,10 +43,39 @@ nav li {
 }
 .banner {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner .title,
+.banner .subtitle {
+  width: 50%;
 }
 .image img {
   width: 80%;
   padding-bottom: 30px;
+}
+
+/* ----features css---- */
+.features {
+  display: flex;
+  margin: 110px;
+  gap: 50px;
+}
+.text_feature {
+  color: #ff900e;
+}
+.photo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 /* -----Experience----- */
@@ -85,7 +115,7 @@ nav li {
   border-radius: 5px;
   margin-bottom: 20px;
   position: absolute;
-  top: 1650px;
+  top: 2464px;
   left: 700px;
 }
 .year {
